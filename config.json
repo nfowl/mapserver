@@ -1,0 +1,41 @@
+{
+  "options": {
+    "paths": {
+      "root": "/usr/src/app/node_modules/tileserver-gl-styles",
+      "fonts": "fonts",
+      "styles": "/styles",
+      "mbtiles": "/data"
+    },
+    "serveAllFonts": true,
+    "serveAllStyles": true
+  },
+  "styles": {
+    "zoom": {
+      "style": "zoom.json",
+      "tilejson": {
+        "bounds": [
+          -180,
+          -85.0511,
+          180,
+          85.0511
+        ]
+      }
+    },
+    "dark": {
+      "style": "dark.json",
+      "tilejson": {
+        "bounds": [
+          -180,
+          -85.0511,
+          180,
+          85.0511
+        ]
+      }
+    }
+  },
+  "data": {
+    "planet-vector": {
+      "mbtiles": "tiles.mbtiles"
+    }
+  }
+}
